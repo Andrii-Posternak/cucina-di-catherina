@@ -1,21 +1,21 @@
 {
-  "name": "parcel-project-template",
+  "name": "cucina-di-catherina",
   "version": "2.0.0",
   "description": "",
-  "homepage": "https://dumbledores-army.github.io/team-project/",
+  "homepage": "https://Andrii-Posternak.github.io/cucina-di-catherina/",
   "scripts": {
     "start": "parcel src/*.html",
-    "build": "parcel build src/*.html --public-url /team-project/"
+    "build": "parcel build src/*.html --public-url /cucina-di-catherina/"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/dumbledores-army/team-project.git"
+    "url": "git+https://github.com/Andrii-Posternak/cucina-di-catherina.git"
   },
   "keywords": [],
-  "author": "Alexander Repeta <alexander.repeta@gmail.com>",
+  "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/dumbledores-army/team-project/issues"
+    "url": "https://github.com/Andrii-Posternak/cucina-di-catherina/issues"
   },
   "dependencies": {
     "modern-normalize": "^1.1.0"
