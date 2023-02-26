@@ -1,0 +1,2 @@
+var modalRef=document.querySelector("[data-modal-buy]");function openModal(){document.querySelector(".backdrop-modal-buy").classList.toggle("backdrop-modal-buy--hidden")}function hideModal(){modalRef.classList.add("backdrop-modal-buy--hidden")}function closeByBackdrop(d){d.target===d.currentTarget&&hideModal()}function closeByEsc(d){"Escape"===d.code&&hideModal()}modalRef.addEventListener("click",closeByBackdrop),document.addEventListener("keydown",closeByEsc);
+//# sourceMappingURL=index.119665b1.js.map
