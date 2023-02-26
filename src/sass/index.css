@@ -1,11 +1,12 @@
 @import '~node_modules/modern-normalize/modern-normalize.css';
 @font-face {
-  font-family: "Montserrat";
-  src: url("../fonts/Montserrat-VariableFont_wght.ttf") format("ttf"), url("../fonts/Montserrat-VariableFont_wght.ttf") format("ttf");
+  font-family: 'Montserrat';
+  src: url('../fonts/Montserrat-VariableFont_wght.ttf') format('ttf'),
+    url('../fonts/Montserrat-VariableFont_wght.ttf') format('ttf');
 }
 @font-face {
-  font-family: "Inter";
-  src: url("../fonts/Montserrat-Italic-VariableFont_wght.ttf") format("ttf");
+  font-family: 'Inter';
+  src: url('../fonts/Montserrat-Italic-VariableFont_wght.ttf') format('ttf');
 }
 h1,
 h2,
@@ -45,7 +46,7 @@ body {
   background-color: #100f0f;
   letter-spacing: 0.03em;
   line-height: 1.14;
-  font-family: "Montserrat", sans-serif;
+  font-family: 'Montserrat', sans-serif;
   font-weight: 400;
   color: #f3f3f3;
 }
@@ -128,4 +129,4 @@ svg {
     padding: 0px 85px;
     width: 1280px;
   }
-}/*# sourceMappingURL=index.css.map */
+}

@@ -17,7 +17,7 @@
 
 .modal-buy {
   position: absolute;
-  top: 100%;
+  top: 80%;
   left: 50%;
   padding: 60px 15px;
 
@@ -108,20 +108,9 @@
   border: 1px solid $menu-color;
   border-radius: 16px;
 
-  // &:required{
-  //     border: 1px solid $menu-color;
-  // }
-  // &:placeholder-shown{
-  //     border-color: $menu-color;
-  // }
-
   &:not(:placeholder-shown):invalid {
     border: 1px solid $hover-color;
   }
-
-  // &:invalid {
-  //     border: 1px solid $hover-color;
-  // }
 }
 
 .modal-buy__delivery-box {
@@ -258,10 +247,3 @@
     background-color: $hover-color;
   }
 }
-
-// .modal-buy__delivery-option{
-//     width: 384px;
-// }
-// .modadl-buy__delivery-icon:checked .modal-buy__delivery-select{
-
-// }

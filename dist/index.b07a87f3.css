@@ -842,7 +842,7 @@ img {
   }
 }
 
-@media screen and (min-width: 530px) {
+@media screen and (min-width: 1020px) {
   .modal {
     width: 530px;
     padding: 60px;
@@ -1218,7 +1218,7 @@ img {
   padding: 60px 15px;
   transition: transform .25s cubic-bezier(.4, 0, .2, 1);
   position: absolute;
-  top: 100%;
+  top: 80%;
   left: 50%;
   overflow-y: auto;
   transform: translate(-50%, -50%);
