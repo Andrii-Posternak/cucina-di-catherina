@@ -441,12 +441,6 @@ svg {
   position: relative;
 }
 
-@media screen and (min-width: 1280px) {
-  .section-hero__container .section-hero__container {
-    position: relative;
-  }
-}
-
 img {
   height: 100%;
 }
@@ -593,6 +587,7 @@ img {
   background-color: #bc1a1a33;
   border-style: none;
   border-radius: 16px;
+  outline: none;
   margin-bottom: 16px;
   padding: 21px 50px;
   font-size: 20px;
@@ -1020,6 +1015,7 @@ img {
   background-color: #bc1a1a33;
   border: none;
   border-radius: 8px;
+  outline: none;
   flex-direction: row;
   justify-content: center;
   align-items: center;
@@ -1651,7 +1647,7 @@ img {
   }
 }
 
-.page-footer__address-card {
+.page-footer__address-link {
   align-items: center;
   display: flex;
 }
@@ -1693,22 +1689,27 @@ img {
   }
 }
 
-.socials-list-footer__icon:hover, .socials-list__icon:hover {
+.socials-list-footer__icon:hover, .socials-list__icon:hover, .socials-list-footer__link:focus .socials-list-footer__icon, .socials-list__link:focus .socials-list__icon {
   fill: #bc1a1a80;
   transition: fill .25s cubic-bezier(.4, 0, .2, 1), color .25s cubic-bezier(.4, 0, .2, 1), color .25s cubic-bezier(.4, 0, .2, 1);
+}
+
+.socials-list__link, .socials-list-footer__link, .page-footer__address-link, .link {
+  outline: none;
 }
 
 .page-footer__address-icon {
   margin-right: 10px;
 }
 
-.link:hover, .link:focus, .page-footer__address-item:hover, .page-footer__address-item:focus {
+.link:hover, .link:focus {
   color: #bc1a1a80;
   transition: color .25s cubic-bezier(.4, 0, .2, 1);
 }
 
-.page-footer__address-item:hover .page-footer__address-icon, .page-footer__address-item:focus .page-footer__address-icon {
+.page-footer__address-item:hover .page-footer__address-icon, .page-footer__address-item:hover .page-footer__address-link, .page-footer__address-link:focus, .page-footer__address-link:focus .page-footer__address-icon {
   fill: #bc1a1a80;
+  color: #bc1a1a80;
   transition: fill .25s cubic-bezier(.4, 0, .2, 1), color .25s cubic-bezier(.4, 0, .2, 1), color .25s cubic-bezier(.4, 0, .2, 1);
 }
 

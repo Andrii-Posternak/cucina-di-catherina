@@ -101,7 +101,7 @@
   font-weight: 400;
   font-size: 16px;
   line-height: 20px;
-  color: #999ea3;
+  color: $placeholder-color;
 
   outline: none;
   background-color: $bg-color;
@@ -154,7 +154,7 @@
   padding: 16px;
 
   outline: none;
-  color: #999ea3;
+  color: $placeholder-color;
   background: $bg-color;
   border: 1px solid $menu-color;
   border-radius: 16px;
@@ -240,7 +240,7 @@
   font-size: 20px;
   line-height: 1.2;
   border: none;
-  color: #f3f3f3;
+  color: $menu-color;
   cursor: pointer;
 
   &:hover {

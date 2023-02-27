@@ -1,6 +1,6 @@
 .page-footer {
   @media screen and(min-width:1020px) {
-    border-top: 1px solid #f3f3f3;
+    border-top: 1px solid $menu-color;
   }
 
   &__logo {
@@ -63,8 +63,6 @@
   flex-direction: row;
   justify-content: space-between;
   flex-wrap: wrap;
-
-  @media screen and(min-width:1020px) {}
 }
 
 .page-footer__info {
@@ -112,11 +110,9 @@
   }
 }
 
-.page-footer__address-card {
+.page-footer__address-link {
   display: flex;
   align-items: center;
-
-  @media screen and(min-width:1020px) {}
 }
 
 .socials-list-footer {
@@ -126,7 +122,6 @@
   flex-direction: column;
   margin-left: auto;
 
-
   @media screen and(min-width:1020px) {
     padding-top: 39px;
   }
@@ -134,14 +129,12 @@
   @media screen and(min-width:1280px) {
     padding-top: 24px;
   }
-
 }
 
 .socials-list-footer__item {
   display: flex;
-
-  align-items: center;
   gap: 20px;
+  align-items: center;
 }
 
 .socials-list-footer__icon {
@@ -153,11 +146,21 @@
   fill: $menu-color;
 }
 
-
 .socials-list-footer__icon:hover,
-.socials-list__icon:hover {
+.socials-list__icon:hover,
+.socials-list-footer__link:focus .socials-list-footer__icon,
+.socials-list__link:focus .socials-list__icon {
   fill: $hover-color;
-  transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1), color 250ms cubic-bezier(0.4, 0, 0.2, 1), color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1),
+    color 250ms cubic-bezier(0.4, 0, 0.2, 1),
+    color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.socials-list__link,
+.socials-list-footer__link,
+.page-footer__address-link,
+.link {
+  outline: none;
 }
 
 .page-footer__address-icon {
@@ -170,15 +173,13 @@
   transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-
-.page-footer__address-item:hover,
-.page-footer__address-item:focus {
-  color: $hover-color;
-  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
-}
-
 .page-footer__address-item:hover .page-footer__address-icon,
-.page-footer__address-item:focus .page-footer__address-icon {
+.page-footer__address-item:hover .page-footer__address-link,
+.page-footer__address-link:focus,
+.page-footer__address-link:focus .page-footer__address-icon {
   fill: $hover-color;
-  transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1), color 250ms cubic-bezier(0.4, 0, 0.2, 1), color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  color: $hover-color;
+  transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1),
+    color 250ms cubic-bezier(0.4, 0, 0.2, 1),
+    color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }

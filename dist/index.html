@@ -11,8 +11,7 @@
 
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="">
-    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
-    <!-- <script defer type="module" src="./index.js"></script> -->
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700;800&family=Roboto&display=swap" rel="stylesheet">
   </head>
   <body>
     <header>
@@ -47,7 +46,7 @@
     <!-- mobile menu -->
     <button class="burger-btn menu-toggle js-open-menu" aria-expanded="false" aria-controls="mobile-menu">
       <svg width="31px" height="16px">
-        <use href="/sprite.c7188f8d.svg#icon-burger"></use>
+        <use href="/icons.adfc4680.svg#icon-burger"></use>
       </svg>
     </button>
 
@@ -58,7 +57,7 @@
           CUCINA</a>
         <button class="close-btn menu-toggle js-close-menu">
           <svg width="17px" height="17px">
-            <use href="/sprite.c7188f8d.svg#icon-close"></use>
+            <use href="/icons.adfc4680.svg#icon-close"></use>
           </svg>
         </button>
       </div>
@@ -122,30 +121,30 @@
     </div>
     <ul class="socials-list list">
       <li class="socials-list__item">
-        <a href="" class="socials-list__link">
+        <a href="#" class="socials-list__link">
           <svg class="socials-list__icon" width="16" height="16">
-            <use href="/icons.2203e1f7.svg#icon-social-tumblr"></use>
+            <use href="/icons.adfc4680.svg#icon-social-tumblr"></use>
           </svg>
         </a>
       </li>
       <li class="socials-list__item">
-        <a href="" class="socials-list__link">
+        <a href="#" class="socials-list__link">
           <svg class="socials-list__icon" width="16" height="16">
-            <use href="/icons.2203e1f7.svg#icon-social-instagram"></use>
+            <use href="/icons.adfc4680.svg#icon-social-instagram"></use>
           </svg>
         </a>
       </li>
       <li class="socials-list__item">
-        <a href="" class="socials-list__link">
+        <a href="#" class="socials-list__link">
           <svg class="socials-list__icon" width="16" height="16">
-            <use href="/icons.2203e1f7.svg#icon-social-youtube"></use>
+            <use href="/icons.adfc4680.svg#icon-social-youtube"></use>
           </svg>
         </a>
       </li>
       <li class="socials-list__item">
-        <a href="" class="socials-list__link">
+        <a href="#" class="socials-list__link">
           <svg class="socials-list__icon" width="16" height="16">
-            <use href="/icons.2203e1f7.svg#icon-social-twitter"></use>
+            <use href="/icons.adfc4680.svg#icon-social-twitter"></use>
           </svg>
         </a>
       </li>
@@ -272,9 +271,16 @@
         </div>
       </div>
     </div>
-    <a class="forward" onclick="plusSlide(-1)"><svg class="forward__icon">
-        <use href="/symbol-defs.a8b2e413.svg#icon-ep_arrow-right"></use></svg></a><a class="backward" onclick="plusSlide(1)"><svg class="forward__icon">
-        <use href="/symbol-defs.a8b2e413.svg#icon-ep_arrow-right"></use></svg></a>
+    <a class="forward" onclick="plusSlide(-1)">
+      <svg class="forward__icon">
+        <use href="/icons.adfc4680.svg#icon-ep_arrow-right"></use>
+      </svg>
+    </a>
+    <a class="backward" onclick="plusSlide(1)">
+      <svg class="forward__icon">
+        <use href="/icons.adfc4680.svg#icon-ep_arrow-right"></use>
+      </svg>
+    </a>
   </div>
 </section>
 
@@ -308,7 +314,7 @@
     <!-- Slideshow container -->
     <div class="gallery__slideshow-container">
       <a class="gallery__prev" onclick="plusSlidesD(-1)"><svg class="gallery__strelka" width="16px" height="16px">
-          <use href="/symbol-defs.a8b2e413.svg#icon-gallery_arrow-left"></use>
+          <use href="/icons.adfc4680.svg#icon-gallery_arrow-left"></use>
         </svg>
       </a>
 
@@ -337,7 +343,7 @@
       </div>
 
       <a class="gallery__next" onclick="plusSlidesD(1)"><svg class="gallery__strelka" width="16px" height="16px">
-          <use href="/symbol-defs.a8b2e413.svg#icon-gallery_arrow-right"></use>
+          <use href="/icons.adfc4680.svg#icon-gallery_arrow-right"></use>
         </svg>
       </a>
     </div>
@@ -351,16 +357,15 @@
   </div>
 </section>
 
-    <style>@import "https://fonts.googleapis.com/css2?family=Inter&family=Montserrat:wght@700&family=Roboto:wght@400;500&display=swap";
-
-
-</style>
+    <!-- <style>
+  @import url('https://fonts.googleapis.com/css2?family=Inter&family=Montserrat:wght@700&family=Roboto:wght@400;500&display=swap');
+</style> -->
 <footer class="page-footer">
   <div class="info-all container">
     <div class="page-footer__info">
       <div class="page-footer__logo">
         <svg class="page-footer__tomato-logo" width="32" height="32">
-          <use href="/footer-icons.14458cd9.svg#icon-logo"></use>
+          <use href="/icons.adfc4680.svg#icon-logo"></use>
         </svg>
         <h1 class="page-footer__title">CUCINA</h1>
       </div>
@@ -383,16 +388,20 @@
       <address class="page-footer__adress-info">
         <ul class="page-footer__adress-list">
           <li class="page-footer__address-item">
-            <div class="page-footer__address-card">
+            <a class="page-footer__address-link" href="https://goo.gl/maps/XPu2avVx7oFHy5nq6" target="_blank">
               <svg class="page-footer__address-icon" width="24" height="24">
-                <use href="/footer-icons.14458cd9.svg#icon-location"></use></svg><a class="page-footer__address-link" href="https://goo.gl/maps/XPu2avVx7oFHy5nq6" target="_blank">Elvia Elviaveien 1, 1234 Oslo</a>
-            </div>
+                <use href="/icons.adfc4680.svg#icon-location"></use>
+              </svg>
+              Elvia Elviaveien 1, 1234 Oslo
+            </a>
           </li>
           <li class="page-footer__address-item">
-            <div class="page-footer__address-card">
+            <a class="page-footer__address-link" href="mailto:willie.jennings@example.com">
               <svg class="page-footer__address-icon" width="24" height="24">
-                <use href="/footer-icons.14458cd9.svg#icon-email"></use></svg><a class="page-footer__address-link" href="mailto:willie.jennings@example.com">willie.jennings@example.com</a>
-            </div>
+                <use href="/icons.adfc4680.svg#icon-email"></use>
+              </svg>
+              willie.jennings@example.com
+            </a>
           </li>
         </ul>
       </address>
@@ -400,20 +409,28 @@
     <div class="socials-footer">
       <ul class="socials-list-footer list">
         <li class="socials-list-footer__item">
-          <a href="" class="socials-list-footer__link"><svg class="socials-list-footer__icon" width="16" height="16">
-              <use href="/icons.2203e1f7.svg#icon-social-tumblr"></use></svg></a>
+          <a href="#" class="socials-list-footer__link"><svg class="socials-list-footer__icon" width="16" height="16">
+              <use href="/icons.adfc4680.svg#icon-social-tumblr"></use>
+            </svg>
+          </a>
         </li>
         <li class="socials-list-footer__item">
-          <a href="" class="socials-list-footer__link"><svg class="socials-list-footer__icon" width="16" height="16">
-              <use href="/icons.2203e1f7.svg#icon-social-instagram"></use></svg></a>
+          <a href="#" class="socials-list-footer__link"><svg class="socials-list-footer__icon" width="16" height="16">
+              <use href="/icons.adfc4680.svg#icon-social-instagram"></use>
+            </svg>
+          </a>
         </li>
         <li class="socials-list-footer__item">
-          <a href="" class="socials-list-footer__link"><svg class="socials-list-footer__icon" width="16" height="16">
-              <use href="/icons.2203e1f7.svg#icon-social-youtube"></use></svg></a>
+          <a href="#" class="socials-list-footer__link"><svg class="socials-list-footer__icon" width="16" height="16">
+              <use href="/icons.adfc4680.svg#icon-social-youtube"></use>
+            </svg>
+          </a>
         </li>
         <li class="socials-list-footer__item">
-          <a href="" class="socials-list-footer__link"><svg class="socials-list-footer__icon" width="16" height="16">
-              <use href="/icons.2203e1f7.svg#icon-social-twitter"></use></svg></a>
+          <a href="#" class="socials-list-footer__link"><svg class="socials-list-footer__icon" width="16" height="16">
+              <use href="/icons.adfc4680.svg#icon-social-twitter"></use>
+            </svg>
+          </a>
         </li>
       </ul>
     </div>
@@ -431,7 +448,7 @@
   <div class="modal-buy">
     <button type="button" class="modal-buy__btn-clouse" onclick="openModal()">
       <svg class="modal-buy__icon-cross" width="32" height="32">
-        <use href="/symbol-defs.a8b2e413.svg#icon-mobal-buy-cross"></use>
+        <use href="/icons.adfc4680.svg#icon-mobal-buy-cross"></use>
       </svg>
     </button>
     <form action="" class="modal-buy__form">
@@ -462,7 +479,7 @@
               <option value="4">dnepr</option>
             </select>
             <svg width="24" height="24" class="modadl-buy__icon">
-              <use href="/symbol-defs.a8b2e413.svg#icon-select-arrow"></use>
+              <use href="/icons.adfc4680.svg#icon-select-arrow"></use>
             </svg>
           </span>
         </label>
@@ -487,7 +504,7 @@
               <option value="4">4</option>
             </select>
             <svg width="24" height="24" class="modadl-buy__icon">
-              <use href="/symbol-defs.a8b2e413.svg#icon-select-arrow"></use>
+              <use href="/icons.adfc4680.svg#icon-select-arrow"></use>
             </svg>
           </span>
         </label>
@@ -509,7 +526,7 @@
         <label for="call" class="modal-buy__payment-checkbox-label">
           <input type="checkbox" id="call" name="call" class="modal-buy__payment-checkbox hidden">
           <svg width="18" height="18" class="modadl-buy__icon-checkbox">
-            <use href="/symbol-defs.a8b2e413.svg#icon-icon-check"></use>
+            <use href="/icons.adfc4680.svg#icon-icon-check"></use>
           </svg>
           <span class="modal-buy__payment-checkbox-span">Do not call to confirm</span>
         </label>
@@ -525,7 +542,7 @@
   <div class="modal">
     <button class="close-btn modal__close-btn" type="button" data-modal-close="">
       <svg width="17px" height="17px">
-        <use href="/sprite.c7188f8d.svg#icon-close"></use>
+        <use href="/icons.adfc4680.svg#icon-close"></use>
       </svg>
     </button>
 
@@ -552,9 +569,8 @@
     <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
     <script src="/index.5ce4312d.js"></script>
     <script src="/index.eda180a1.js"></script>
-
     <script src="/index.4a08d182.js"></script>
-    <script src="/index.d741264c.js"></script>
+    <script src="/index.e5e95213.js"></script>
     <script src="/index.11602242.js"></script>
   </body>
 </html>
