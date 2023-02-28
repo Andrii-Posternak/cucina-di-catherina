@@ -1,0 +1,2 @@
+var btnUpRef=document.querySelector(".up-btn");function onClick(){window.scrollTo({top:0,left:0,behavior:"smooth"})}function showBtn(){btnUpRef.classList.remove("up-btn--hide")}function hideBtn(){btnUpRef.classList.add("up-btn--hide")}btnUpRef.addEventListener("click",onClick),window.addEventListener("scroll",(function(){window.scrollY>400?showBtn():hideBtn()}));
+//# sourceMappingURL=index.3faff268.js.map
