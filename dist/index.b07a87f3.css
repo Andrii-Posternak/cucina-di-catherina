@@ -1713,4 +1713,22 @@ img {
   transition: fill .25s cubic-bezier(.4, 0, .2, 1), color .25s cubic-bezier(.4, 0, .2, 1), color .25s cubic-bezier(.4, 0, .2, 1);
 }
 
+.up-btn {
+  width: 40px;
+  height: 40px;
+  cursor: pointer;
+  background-color: #bc1a1a33;
+  border-radius: 50%;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  position: fixed;
+  bottom: 50px;
+  right: 50px;
+}
+
+.up-btn--hide {
+  display: none;
+}
+
 /*# sourceMappingURL=index.b07a87f3.css.map */
